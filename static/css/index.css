@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Kumar+One+Outline|Nosifer|Ubuntu+Condensed');
+
+body{
+    background: url(../img/rio.jpg) no-repeat center center fixed;
+    background-size: cover;
+	margin: 0;
+	font-family: 'Ubuntu Condensed';
+}
+
+h1 {
+	margin: 0;
+	text-align: center;
+	border:1px solid #3C0000;
+	background: #191970;
+	color: #778899;
+	box-shadow: 0 0 5px 5px #778899;
+	margin-bottom: 20px;
+}
+
+p {
+	padding: 20px;
+	margin: 0;
+	text-align: center;
+}
+
+input[type="text"], input[type="number"], input[type="date"], input[type="mail"] {
+	border: 1px solid #3C0000;
+	font-family: 'Ubuntu Condensed';
+	padding-left: 3px;
+	font-size: 17px;
+}
+fieldset{
+	width: 60%;
+	margin: 30px auto;
+	padding: 20px;
+	border: 1px solid #3C0000;
+	background: rgba( 119, 136, 153, 0.4);
+}
+
+caption {
+	margin: 20px auto;
+}
+
+table {
+	width: 60%;
+	margin: 20px auto;
+	border: 1px solid #3C0000;
+	border-spacing: 1px;
+	background: rgba( 119, 136, 153, 0.6);
+}
+
+th, td {
+	border: 1px solid #3C0000;
+}
+
+th {
+	background: #778899;
+}
+
+td {
+	padding-left: 10px;
+	background: rgba ( , , , 0.6);
+}
